@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon" type="imagem/png" href="../imagenes/logos.png"/>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Contacta a un Especilista</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img width="100px"src="../imagenes/logos.png"alt="Logo"id="logo-1"/></a>
+              <button
+                  class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarNavAltMarkup"aria-controls="navbarNavAltMarkup"aria-expanded="false"aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end"
+                  id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                      <a class="nav-link" href="../index.html">Home</a>
+                      <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+                      <a class="nav-link" href="servicios.html">Servicios</a>
+                      <a class="nav-link" href="casosDeExito.html">Casos de Exito</a>
+                      <a class="nav-link" href="eldocumental.html">El Documental</a>
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                  </div>
+              </div>
+          </div>
+      </nav>
+ <section>
+        <div id="Contacto">
+            <p>Dejanos tus datos y un especialista te contactara para asesorarte.</p>
+        </div>
+        <form action="contact.php" method="post">
+            <label for="nombre">Nombre:</label>
+             <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+             <label for="email">Email:</label>
+             <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+             <label for="mensaje">Mensaje:</label>
+             <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+             <input id="submit" type="submit" name="submit" value="Enviar"/>
+        </form>
+  </section>
+  <div id="direccion">
+    <p>Santiago del Estero 81 - Sunchales - Provincia de Santa Fe - CP: 2322</p>
+    <P>Telefono: +54 3493 461886</P>
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27374.481389828063!2d-61.56908376409178!3d-30.947865769986997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94354500086f5fa7%3A0x90e2686348378f7b!2sSunchales%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1629154951213!5m2!1ses!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+</div>
+<footer class="foot">
+    <div id="Firma">
+        <p>Sitio desarollado por Tomás Pomba</p>
+        <a href="#inicio"> Ir arriba</a>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
